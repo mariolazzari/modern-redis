@@ -35,3 +35,24 @@ LPUSH ships voyager
 RPOP ships
 RPOP ships
 ```
+
+## PubSub and streaming
+
+### PubSub
+
+```sh
+SUBSCRIBE ch1
+PUBLISH ch1 ciao
+```
+
+### Straming
+
+- Appended infinetly
+- Logs data
+- Consumers can query ranges
+- Just listen fon new items
+
+```sh
+# XADD mystream * field1 value1 field2 value2 -> * autogen id
+XADD orders * user_id 42 total 99.50 status pending
+```
