@@ -72,3 +72,22 @@ JSON.GET enterprise
 #### Redis object mapping
 
 - native data structure
+
+### RediSearch
+
+- indexing and querying
+- full-text and fuzzy search
+
+## Time series
+
+### ReidsTimeSeries
+
+- query for start and end times
+- aggregations
+- retention period
+- indexed labels
+- integrations
+
+## RedisGraph
+
+### deprecated
