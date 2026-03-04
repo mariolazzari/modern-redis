@@ -56,3 +56,19 @@ PUBLISH ch1 ciao
 # XADD mystream * field1 value1 field2 value2 -> * autogen id
 XADD orders * user_id 42 total 99.50 status pending
 ```
+
+## Storing data
+
+### RedisJSON
+
+- horizontal scalable nosql
+- update individual field
+
+```sh
+JSON.SET enterprise . '{"captain": "kirk"}'
+JSON.GET enterprise
+```
+
+#### Redis object mapping
+
+- native data structure
