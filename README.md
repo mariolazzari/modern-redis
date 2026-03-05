@@ -91,3 +91,11 @@ JSON.GET enterprise
 ## RedisGraph
 
 ### deprecated
+
+## RedisBloom
+
+### Introduction to RedisBloom
+
+- Probabilistic data structures
+- Tests
+- Fast and memory efficient
