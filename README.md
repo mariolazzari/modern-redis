@@ -99,3 +99,12 @@ JSON.GET enterprise
 - Probabilistic data structures
 - Tests
 - Fast and memory efficient
+
+## Redis enterprise
+
+### Architecture
+
+- multi cloud
+- replica
+- geo distribution
+- flash memory
